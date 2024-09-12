@@ -886,7 +886,7 @@ cholera_data <- read.csv("C:/Users/Open user/Documents/elijah R Learning/cleaned
 View(cholera_data)
 
 usethis::edit_r_environ()
-Sys.setenv(GOOGLEGEOCODE_API_KEY = "AIzaSyDA_XjEWNXWmiJWqDWPFy6T_AaWpvTd4a4")
+Sys.setenv(GOOGLEGEOCODE_API_KEY = " Your API KEY")
 
 geo_code_tbl1 <- cholera_data %>% 
   tidygeocoder::geocode(
